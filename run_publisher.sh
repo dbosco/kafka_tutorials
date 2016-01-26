@@ -7,4 +7,4 @@ if [ $# -ne 1 ]; then
 fi
 
 set -x
-java -classpath .:target/"*" kafka_tutorials.KafkaPublisher $*
+java -classpath .:target/"*" kafka_tutorials.KafkaPublisherExample $*
